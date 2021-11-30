@@ -1,0 +1,45 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    display: grid;
+    grid-template-rows: repeat(4, auto);
+    width: 550px;
+    row-gap: 20px;
+
+    .info-title{
+        line-height: 20px;
+        padding-left: 50px;
+
+        p{
+            color:rgb(75, 70, 70);
+            font-size: 18px;
+        }
+    }
+
+    .info{
+        display: grid;
+        grid-template-columns: repeat(3, auto);
+        justify-content: space-around;
+        padding-bottom: 10px;
+
+
+        .block-info{
+            line-height: 10px;
+
+            p{
+                color: rgb(75, 70, 70);
+                font-size: 18px;
+            }
+        }
+    }
+
+    .bin{
+        width: 100%;
+        text-align: center;
+        background-color: blueviolet;
+        color: white;
+    }
+}

@@ -1,0 +1,57 @@
+body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.container {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-rows: (auto)[4];
+      grid-template-rows: repeat(4, auto);
+  width: 550px;
+  row-gap: 20px;
+}
+
+.container .info-title {
+  line-height: 20px;
+  padding-left: 50px;
+}
+
+.container .info-title p {
+  color: #4b4646;
+  font-size: 18px;
+}
+
+.container .info {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (auto)[3];
+      grid-template-columns: repeat(3, auto);
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  padding-bottom: 10px;
+}
+
+.container .info .block-info {
+  line-height: 10px;
+}
+
+.container .info .block-info p {
+  color: #4b4646;
+  font-size: 18px;
+}
+
+.container .bin {
+  width: 100%;
+  text-align: center;
+  background-color: blueviolet;
+  color: white;
+}
+/*# sourceMappingURL=style.css.map */
